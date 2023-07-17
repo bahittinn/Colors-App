@@ -24,5 +24,6 @@ extension ColorsTableVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
          return UITableViewCell()
+        //returns blank table view cell
     }
 }
