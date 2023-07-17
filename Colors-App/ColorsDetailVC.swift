@@ -8,10 +8,11 @@
 import UIKit
 
 class ColorsDetailVC: UIViewController {
-
+    var backcolor: UIColor?
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print(backcolor)
+        view.backgroundColor = backcolor
         // Do any additional setup after loading the view.
     }
     
